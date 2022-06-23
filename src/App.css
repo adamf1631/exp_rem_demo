@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --darkGrey: #5d5c61;
+  --lightGrey: #f5f5f5;
+  --lightBlue: #7395ae;
+  --mediumBlue: #557a95;
+  --beige: #b1a296;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.main {
+  background-color: var(--mediumBlue);
+  color: #fff;
+}
+.reminders a {
+  color: var(--lightBlue) !important;
+}
+.reminders a:hover {
+  color: var(--mediumBlue) !important;
+  text-decoration: none !important;
+}
+.reminder {
+  color: #222 !important;
+}
+.reminder a {
+  color: #fff !important;
+}
+.reminder a:hover {
+  color: var(--beige) !important;
+  text-decoration: none !important;
+}
+.reminder form {
+  color: #fff;
+}
+.reminder h6 {
+  color: #fff;
+}
+
+.navbar {
+  background-color: var(--lightGrey);
+  color: var(--darkGrey);
+}
+.navbar i {
+  color: var(--mediumBlue);
+}
+
+.card {
+  color: #333;
+}
+.card h5 {
+  font-size: 21rem;
+  font-weight: bold;
+}
+
+.scroll-up {
+  height: 400px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .login {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .login img {
+    width: 150px;
+  }
+}
